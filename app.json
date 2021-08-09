@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Pokedex Native",
+    "slug": "Pokedex Native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pokedex.png",
+    "splash": {
+      "image": "./assets/splash-pokemon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pokedex-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "pokedex.native"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
